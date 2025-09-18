@@ -5,6 +5,12 @@ Este projeto foi criado para aplicar e consolidar os conhecimentos adquiridos no
 
 ---
 
+## 🖼 Print do Projeto
+
+![Print do Portfólio](./assets/print_site.png)
+
+---
+
 ## 🛠 Tecnologias e Ferramentas Utilizadas
 
 - **HTML**
@@ -37,12 +43,6 @@ Este projeto foi criado para aplicar e consolidar os conhecimentos adquiridos no
 - Código limpo e reutilizável com classes CSS
 - Histórico de versionamento no GitHub
 - Conteúdos otimizados usando técnicas de **Prompt Engineering**
-
----
-
-## 🖼 Print do Projeto
-
-![Print do Portfólio](./assets/print_site.png)
 
 ---
 
