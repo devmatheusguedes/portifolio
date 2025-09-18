@@ -66,5 +66,5 @@ Este portfólio foi desenvolvido para **demonstrar meus aprendizados**, organiza
 
 ---
 
-## 🔗 Estrutura de Pastas Recomendada
+
 
