@@ -5,12 +5,19 @@ Este projeto foi criado para aplicar e consolidar os conhecimentos adquiridos no
 
 ---
 
+## 🖼 Print do Projeto
+
+![Print do Portfólio](./assets/print_site.png)
+
+---
+
 ## 🛠 Tecnologias e Ferramentas Utilizadas
 
 - **HTML**
   - Estrutura das páginas do portfólio
   - Cabeçalho e footer
   - Página "Sobre mim" com título, parágrafos e imagem
+  - Página "Curriculo" com titulos, parágrafos, imagens e seções
 - **CSS**
   - Estilização de páginas
   - Classes reutilizáveis
@@ -40,12 +47,6 @@ Este projeto foi criado para aplicar e consolidar os conhecimentos adquiridos no
 
 ---
 
-## 🖼 Print do Projeto
-
-![Print do Portfólio](./assets/print_site.png)
-
----
-
 ## 🌐 Acesse o Projeto Online
 
 [🔗 Ver no Vercel](https://seu-projeto.vercel.app)  
@@ -66,5 +67,5 @@ Este portfólio foi desenvolvido para **demonstrar meus aprendizados**, organiza
 
 ---
 
-## 🔗 Estrutura de Pastas Recomendada
+
 
