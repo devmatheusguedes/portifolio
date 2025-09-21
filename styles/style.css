@@ -111,6 +111,23 @@ sites para palheta de cores:
     font-family: var(--font-montserrat); /*fonte do paragrafo*/
 }
 
+.apresentacao__texto__lista{
+     font-size: var(--font-size-secundario);
+     font-family: var(--font-montserrat); /*fonte do paragrafo*/
+
+}
+
+dl dd{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.apresentacao__texto__paragrafo__link{
+    color: var(--cor-terciaria) !important;  /*cor do link*/
+    text-decoration: none; /*remove o sublinhado do link*/
+}
+
+
 .apresentacao__texto__links_subtitulo{
     font-family: var(--font-krona-one-regular);
     font-weight: 400;
