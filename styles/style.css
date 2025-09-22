@@ -46,10 +46,11 @@ body{
 }
 .cabecalho{
     padding: 2% 0% 0% 15%; /*espaçamento interno do cabeçalho*/
+    width: auto; /*largura do cabeçalho*/
 }
 .cabecalho__menu{
     display: flex; /*flexbox*/
-    gap: 5rem; /*espaçamento entre os itens*/;
+    gap: 4rem; /*espaçamento entre os itens*/;
     justify-content: start; /*alinha os itens no inicio do eixo principal*/
 }
 .cabecalho__menu__link{
@@ -200,6 +201,7 @@ dl dd{
     font-size: var(--font-size-secundario);
     font-weight: 400;
 }
+
 /* estudar mais sobre media queries */
 @media (max-width: 1200px){
     .cabecalho{
@@ -207,6 +209,8 @@ dl dd{
     }
     .cabecalho__menu{
         justify-content: center; /*centraliza os itens no eixo principal*/
+        width: auto; /*largura do cabeçalho*/
+        gap: 3rem; /*espaçamento entre os itens*/;
     }
     .apresentacao{
         flex-direction: column-reverse; /*alinha os itens em coluna*/
@@ -216,6 +220,12 @@ dl dd{
         width: auto; /*largura fixa para o texto*/
     }
     
+}
+
+@media (max-width: 674px){
+    .cabecalho__menu{
+        gap: 1rem;  /*espaçamento entre os itens*/;
+    }  
 }
 
 @media (min-width: 3100px){
