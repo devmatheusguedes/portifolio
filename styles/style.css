@@ -13,11 +13,11 @@ usamos as medidas relativas do tipo REM e % para deixar a pagina dinamica
     - Usar a media EX com cuidado, pois ela é relativa ao tamanho da letra x e pode causar problemas de layout
     - Usar a media REM e % para deixar a pagina mais dinamica e responsiva
 */
-:root{
-    --cor-primaria: #1213E1;
-    --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #36E036;
-    --cor-quartenaria: #22D4FD;
+:root{/*variaveis globais*/
+    --cor-primaria:#493628;
+    --cor-secundaria: #E4E0E1 ;
+    --cor-terciaria:#AB886D ;
+    --cor-quartenaria: #D6C0B3;
     --font-montserrat: 'Montserrat', sans-serif;
     --font-krona-one: 'Krona One', sans-serif;
     --font-krona-one-regular: 'Krona One', sans-serif;
@@ -71,6 +71,7 @@ sites para palheta de cores:
     margin: 0px;
     border: 2px  var(--cor-terciaria);
     padding: 0px ;
+    font-weight: 700;
     
  }
 
@@ -148,6 +149,14 @@ dl dd{
     gap: 2rem; /*espaçamento entre os itens*/
     align-items: center; /*alinha os itens no centro do eixo transversal*/
 }
+.apresentacao__texto__links__certificado{
+    display: flex; /*flexbox*/
+    flex-direction: column; /*alinha os itens em coluna*/
+    align-items: start; /*alinha os itens no inicio do eixo transversal*/
+    gap: 0.5rem; /*espaçamento entre os itens*/
+    margin-left: 4rem;
+    
+}
 
 .apresentacao__texto__links__botao{
     display: flex; /*flexbox*/
@@ -162,7 +171,7 @@ dl dd{
     color: var(--cor-secundaria); /*cor do texto do botao*/
     font-family: var(--font-montserrat); /*fonte do botao*/
     font-weight: 600; /*negrito*/
-    border: 3px solid #36E036; /*cor da borda do botao*/
+    border: 3px solid var(--cor-terciaria); /*cor da borda do botao*/
 
 }
 .apresentacao__texto__links__botao:hover{
@@ -172,9 +181,12 @@ dl dd{
     cursor: pointer; /*muda o cursor para uma mãozinha*/
     transform: scale(1.1) translateY(-2px); /*aumenta o tamanho do botao e o move para cima*/
 }
+.apresentacao__texto__links__botao:hover .logo{
+    border: 2px solid var(--cor-primaria); /*cor da borda do botao ao passar o mouse*/
+}
 
 .logo{
-    border: 2px solid var(--cor-secundaria);
+    border: 2px solid var(--cor-quartenaria);
     width: 2rem;
     height: 2rem;
 }
