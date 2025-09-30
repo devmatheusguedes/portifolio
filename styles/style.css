@@ -23,6 +23,7 @@ usamos as medidas relativas do tipo REM e % para deixar a pagina dinamica
     --font-krona-one-regular: 'Krona One', sans-serif;
     --font-size-pricipal: 2.25rem; /*36px*/
     --font-size-secundario: 1.5rem; /*24px*/
+    --font-size-terciario: 1rem; /*20px*/
 }
 .krona-one-regular {
   font-family: "Krona One", sans-serif;
@@ -109,13 +110,19 @@ sites para palheta de cores:
     font-family: var(--font-krona-one); /*fonte do titulo*/
 }
 .apresentacao__texto_paragrafo{
-    font-size: var(--font-size-secundario);
+    font-size: var(--font-size-terciario); /*tamanho da fonte do paragrafo*/
     font-family: var(--font-montserrat); /*fonte do paragrafo*/
+    gap: 4rem; /*espaçamento entre os itens*/;
 }
 
 .apresentacao__texto__lista{
-     font-size: var(--font-size-secundario);
+    display: flex; /*flexbox*/
+    flex-direction: column; /*alinha os itens em coluna*/
+    align-items: start; /*alinha os itens no inicio do eixo transversal*/
+    gap: 1rem; /*espaçamento entre os itens*/;
+     font-size: var(--font-size-terciario);
      font-family: var(--font-montserrat); /*fonte do paragrafo*/
+
 
 }
 
